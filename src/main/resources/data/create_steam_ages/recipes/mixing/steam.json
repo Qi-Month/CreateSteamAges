@@ -1,0 +1,16 @@
+{
+	"type": "create:mixing",
+	"heatRequirement": "heated",
+	"ingredients": [
+		{
+			"fluidTag": "minecraft:water",
+			"amount": 1000
+		}
+	],
+	"results": [
+		{
+			"amount": 1000,
+			"fluid": "create_steam_ages:steam"
+		}
+	]
+}

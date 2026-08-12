@@ -1,0 +1,16 @@
+{
+	"type": "create:mixing",
+	"heatRequirement": "superheated",
+	"ingredients": [
+		{
+			"fluidTag": "forge:steam",
+			"amount": 1000
+		}
+	],
+	"results": [
+		{
+			"amount": 1000,
+			"fluid": "create_steam_ages:high_temperature_steam"
+		}
+	]
+}
