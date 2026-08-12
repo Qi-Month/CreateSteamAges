@@ -1,4 +1,12 @@
 {
 	"create_steam_ages.boiler.steam_input_rate": "Steam Input Rate",
-	"create_steam_ages.boiler.steam_level": "Steam Level"
+	"create_steam_ages.boiler.steam_level": "Steam Level",
+	"fluid.create_steam_ages.steam": "Steam",
+	"fluid.create_steam_ages.steam_flowing": "Steam",
+	"fluid.create_steam_ages.high_temperature_steam": "High Temperature Steam",
+	"fluid.create_steam_ages.high_temperature_steam_flowing": "High Temperature Steam",
+	"item.create_steam_ages.steam_bucket": "Steam Bucket",
+	"item.create_steam_ages.high_temperature_steam_bucket": "High Temperature Steam Bucket",
+	"block.create_steam_ages.high_temperature_steam": "High Temperature Steam",
+	"block.create_steam_ages.steam": "Steam"
 }

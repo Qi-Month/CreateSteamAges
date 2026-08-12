@@ -1,4 +1,12 @@
 {
 	"create_steam_ages.boiler.steam_input_rate": "蒸汽输入速率",
-	"create_steam_ages.boiler.steam_level": "蒸汽等级"
+	"create_steam_ages.boiler.steam_level": "蒸汽等级",
+	"fluid.create_steam_ages.steam": "蒸汽",
+	"fluid.create_steam_ages.steam_flowing": "蒸汽",
+	"fluid.create_steam_ages.high_temperature_steam": "高温蒸汽",
+	"fluid.create_steam_ages.high_temperature_steam_flowing": "高温蒸汽",
+	"item.create_steam_ages.steam_bucket": "蒸汽桶",
+	"item.create_steam_ages.high_temperature_steam_bucket": "高温蒸汽桶",
+	"block.create_steam_ages.high_temperature_steam": "高温蒸汽",
+	"block.create_steam_ages.steam": "蒸汽"
 }
