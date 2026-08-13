@@ -1,4 +1,4 @@
-package dev.celestiacraft.create_steam_ages.commom.fluid;
+package dev.celestiacraft.create_steam_ages.common.fluid;
 
 import com.mojang.blaze3d.shaders.FogShape;
 import com.mojang.blaze3d.systems.RenderSystem;

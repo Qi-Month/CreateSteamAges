@@ -1,7 +1,7 @@
 package dev.celestiacraft.create_steam_ages;
 
 import com.simibubi.create.foundation.data.CreateRegistrate;
-import dev.celestiacraft.create_steam_ages.commom.register.CSAFluids;
+import dev.celestiacraft.create_steam_ages.common.register.CSAFluids;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

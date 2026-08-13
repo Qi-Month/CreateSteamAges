@@ -1,9 +1,9 @@
-package dev.celestiacraft.create_steam_ages.commom.register;
+package dev.celestiacraft.create_steam_ages.common.register;
 
 import com.tterrag.registrate.util.entry.FluidEntry;
 import com.tterrag.registrate.util.nullness.NonNullBiConsumer;
 import dev.celestiacraft.create_steam_ages.CreateSteamAges;
-import dev.celestiacraft.create_steam_ages.commom.fluid.SteamFluid;
+import dev.celestiacraft.create_steam_ages.common.fluid.SteamFluid;
 import dev.celestiacraft.create_steam_ages.tags.CSAFluidTags;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.resources.ResourceLocation;
