@@ -15,9 +15,13 @@ public class CSAFluids {
 	public static final FluidEntry<ForgeFlowingFluid.Flowing> HIGH_TEMPERATURE_STEAM;
 
 	static {
-		STEAM = CreateSteamAges.REGISTRATE.fluid("steam", SteamFluid.create(
-						0xDEDEDE, () -> 1.0f / 8.0f, 0xFFDEDEDE
-				))
+		STEAM = CreateSteamAges.REGISTRATE.fluid(
+						"steam",
+						CreateSteamAges.loadResource("fluid/steam_still"),
+						CreateSteamAges.loadResource("fluid/steam_flow"),
+						SteamFluid.create(0xFAFAFA, () -> {
+							return 1.0f / 8.0f;
+						}, 0xFFFAFAFA))
 				.renderType(() -> RenderType.translucent())
 				.properties((properties) -> {
 					properties.density(-10)
@@ -40,9 +44,13 @@ public class CSAFluids {
 				.build()
 				.register();
 
-		HIGH_TEMPERATURE_STEAM = CreateSteamAges.REGISTRATE.fluid("high_temperature_steam", SteamFluid.create(
-						0xFAFAFA, () -> 1.0f / 8.0f, 0xFFFAFAFA
-				))
+		HIGH_TEMPERATURE_STEAM = CreateSteamAges.REGISTRATE.fluid(
+						"high_temperature_steam",
+						CreateSteamAges.loadResource("fluid/high_temperature_steam_still"),
+						CreateSteamAges.loadResource("fluid/high_temperature_steam_flow"),
+						SteamFluid.create(0xFAFAFA, () -> {
+							return 1.0f / 8.0f;
+						}, 0xFFFAFAFA))
 				.renderType(() -> RenderType.translucent())
 				.properties((properties) -> {
 					properties.density(-10)

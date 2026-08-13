@@ -1,0 +1,20 @@
+{
+	"sources": [
+		{
+			"type": "single",
+			"resource": "create_steam_ages:fluid/steam_still"
+		},
+		{
+			"type": "single",
+			"resource": "create_steam_ages:fluid/steam_flow"
+		},
+		{
+			"type": "single",
+			"resource": "create_steam_ages:fluid/high_temperature_steam_still"
+		},
+		{
+			"type": "single",
+			"resource": "create_steam_ages:fluid/high_temperature_steam_flow"
+		}
+	]
+}
